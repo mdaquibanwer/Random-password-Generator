@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(69, 69, 134);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-password{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(38, 38, 90);
+    margin: 10rem auto;
+    box-shadow: 2px 2px 1rem rgba(38, 56, 124, 0.45);
+}
+
+h3{
+    text-align: center;
+    padding-top: 1.5rem;
+    color: #fff;
+}
+.pw-header{
+    display: flex;
+    height: 20%;
+    margin-top: 0.6rem;
+    background: rgb(108, 108, 177);
+    position: relative;
+}
+.pass{
+    padding: 1rem 0.2rem 0.2rem 0.5rem;
+    color: #fff;
+}
+.pw-header button{
+    position: absolute;
+    top: 90%;
+    right: 5%;
+    transform: translateY(-90%);
+    cursor: pointer;
+    background-color: rgb(38, 38, 90);
+    border: none;
+    color: #fff;
+    text-align: center;
+    border-radius: 10%;
+    width: 4rem;
+    padding: 0.2rem;
+    opacity: 0.1;
+    transition: all 0.2s ease;
+}
+.pw-header button:hover{
+    background-color: rgb(60,40,80);
+    opacity: 1;
+}
+
+.pw-body{
+    margin-top: 0.6rem;
+}
+.pw-option{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+}
+.pw-option label{
+   color: #efeffe;
+   padding-right: 0.3rem ;
+}
+
+.generate{
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+}
+
+.generate:hover{
+    background: #cddcdc;
+    color: rgb(38, 38, 90);
+}
